@@ -1,0 +1,114 @@
+/*HAVEN TYPOGRAPHY*/
+#footer .text{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.05em;
+	text-decoration:none;
+	color:#333333;
+}
+#sidebar .text{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#ffffff;
+}
+#sidebar ul a:link, #sidebar ul a:visited{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#ffffff;
+}
+#main .text1{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#000000;
+	border: solid 1px #cbc9c9;
+	width: 950px;
+	padding: 20px;
+	padding:0 0.5em 0.5em;
+	margin-bottom: 14px;
+	
+}
+
+#main .text{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	text-decoration:none;
+	color:#000000;
+}
+
+
+#nav .navtext{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	text-decoration:none;
+	color:#ffffff;
+}
+#nav .navtext a:link, .navtext a:visited{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:underline;
+	color:#ffffff;
+}
+#userinformation .text, .text a:link, .text a:visited, .text a:hover{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	text-decoration:none;
+	color:#ffffff;
+}
+#header .titletext{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.2em;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+#header .hometext{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	text-decoration:none;
+	color:#FFFFFF;
+	}
+#header a:hover{
+text-decoration:underline;
+}
+#loginbox h1{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.2em;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	background-color:#c92f00;
+}
+#loginbox h2{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.0em;
+	text-decoration:none;
+	color:#c92f00;
+	text-align:center;
+	background-color:#fff;
+}
+#loginbox h3{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:.9em;
+	text-decoration:none;
+	color:#ffffff;
+	text-align:center;
+	background-color:#c92f00;
+}
+#loginbox .textbox{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:.9em;
+	text-decoration:none;
+	color:#000000;
+	background-color:#ffffff;
+	border: 1px solid #c92f00;
+	width:160px;
+}
+#loginbox a:link, #loginbox a:visited{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1em;
+	text-decoration:none;
+	color:#4d4d4d;
+}
+#loginbox a:hover{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1em;
+	text-decoration:underline;
+	color:#4d4d4d;
+}

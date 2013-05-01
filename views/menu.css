@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+    
+#slidetabsmenu {
+bottom:0;
+font-family:Arial,Helvetica,sans-serif;
+font-size:0.9em;
+left:127px;
+line-height:normal;
+position:absolute;
+}
+
+* html #slidetabsmenu{ /*IE only. Add 1em spacing between menu and rest of content*/
+margin-bottom: 1em;
+}
+
+#slidetabsmenu ul{
+list-style-type: none;
+margin:0;
+margin-left: 10px;
+padding:0;
+}
+
+#slidetabsmenu li{
+display:inline;
+margin:0;
+padding:0;
+}
+
+#slidetabsmenu a {
+float:left;
+background:url(i/tab-left.gif) no-repeat left top;
+margin:0;
+padding:0 0 0 9px;
+text-decoration:none;
+}
+
+#slidetabsmenu a span {
+float:left;
+display:block;
+background:url(i/tab-right.gif) no-repeat right top;
+padding:3px 14px 3px 5px;
+font-weight:bold;
+color:#3B3B3B;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#slidetabsmenu a span {float:none;}
+/* End IE5-Mac hack */
+
+#slidetabsmenu a:hover span {
+color: black;
+text-decoration:none;
+}
+
+#slidetabsmenu #current a {
+background-position:0 -125px;
+}
+
+#slidetabsmenu #current a span {
+background-position:100% -125px;
+color: #fff;
+}
+
+#slidetabsmenu a:hover {
+background-position:0% -125px;
+text-decoration:none;
+}
+
+#slidetabsmenu a:hover span {
+background-position:100% -125px;
+text-decoration:none;
+}
